@@ -149,50 +149,9 @@ img[src*="stone-texture"]{
 .project-plans__nav--next{
   right:.45rem;
 }
-html.has-custom-cursor,
-html.has-custom-cursor *{
-  cursor:none !important;
-}
-.arc-cursor{
-  position:fixed;
-  top:0;
-  left:0;
-  width:28px;
-  height:28px;
-  margin:-14px 0 0 -14px;
-  pointer-events:none;
-  z-index:99999;
-  background:transparent;
-  mix-blend-mode:normal;
-  isolation:isolate;
-  transform-origin:center center;
-  will-change:transform;
-}
-.arc-cursor svg{
-  display:block;
-  width:100%;
-  height:100%;
-  overflow:visible;
-}
-.arc-cursor circle{
-  fill:#7EB8B0;
-  fill-opacity:1;
-  stroke:none;
-  mix-blend-mode:normal;
-}
-.arc-cursor.is-tab circle{
-  fill:#7EB8B0;
-  fill-opacity:1;
-  stroke:none;
-}
-@media (hover:none), (pointer:coarse){
-  html.has-custom-cursor,
-  html.has-custom-cursor *{
-    cursor:auto !important;
-  }
-  .arc-cursor{
-    display:none !important;
-  }
+html,
+html *{
+  cursor:url("../images/cursor-black.svg") 4 2, auto !important;
 }
 
 .project-list.has-spotlight{
