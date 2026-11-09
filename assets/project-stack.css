@@ -151,7 +151,7 @@ img[src*="stone-texture"]{
 }
 html,
 html *{
-  cursor:url("../images/cursor-black.svg") 4 2, auto !important;
+  cursor:url("../images/cursor-black.png") 2 1, auto !important;
 }
 
 .project-list.has-spotlight{
